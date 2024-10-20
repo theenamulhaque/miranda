@@ -1,0 +1,112 @@
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+html, body{
+      height: 100%;
+      width: 100%;
+}
+
+#page1{
+      height: 100vh;
+      width: 100vw;
+      background-color: #c4bcb3;
+      position: relative;
+}
+
+#nav{
+      height: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 1%;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+}
+
+#nav >h5{
+      font-size: 20px;
+      font-weight: 100;
+}
+
+#nav >#main_logo{
+      height: 30%;
+}
+
+#nav >#menu_icon{
+      height: 50%;
+}
+
+/* ------------ */
+
+#elems{
+      height: 430px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 2% 1%;
+}
+
+#elem1{
+      width: 30%;
+      height: 100%;
+}
+
+#elem1 h4{
+      font-size: 26px;
+      font-weight: 600;
+      font-family: canopee;
+      padding: 20px 0 15px 0;
+}
+
+#elem1 p{
+      font-family: Editorial New;
+      font-size: 22px;
+}
+
+#elem1 h4 span{
+      padding: 5px;
+      border-radius: 5px;
+      background-color: rgb(209, 84, 0);
+      margin-left: 5px;
+      color: rgb(194, 194, 194);
+      font-weight: normal;
+}
+
+#elem1 #image-div{
+      height: 60%;
+      width: 100%;
+      overflow: hidden;
+}
+
+#elem2{
+      width: 25%;
+      height: 100%;
+      border-right: 1px solid rgba(0, 0, 0, 0.253);
+      border-left: 1px solid rgba(0, 0, 0, 0.253);
+      padding: 0 50px;
+}
+
+#elem3{
+      width: 30%;
+      height: 100%;
+}
+
+#elem3 #image-div{
+      height: 60%;
+      width: 100%;
+      overflow: hidden;
+}
+
+#image-div img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: all ease-in-out 0.5s;
+}
+
+#image-div:hover img{
+      scale: 1.1;
+}
