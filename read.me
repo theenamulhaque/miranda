@@ -1,0 +1,33 @@
+1. grap ->
+
+# GSAP CDN Copy/Paste in HTML File = <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+# then write code in "main.js" file = 
+var tl = gsap.timeline();
+
+tl.to("#page1", {
+      y: "100vh",
+      scale:0.6,
+      duration: 0
+})
+
+tl.to("#page1", {
+      y: "30vh",
+      duration: 1,
+      delay:1
+})
+
+tl.to("#page1", {
+      y: "0vh",
+      rotate: 360,
+      scale:1,
+      duration: 0.8
+})
+
+==============================================================
+
+2. locomotive -> for smooth scrolling;
+# go to "locomotive CDN" and copy 
+---- CSS CDN>  https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css
+
+---- JS CDN>   https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js
